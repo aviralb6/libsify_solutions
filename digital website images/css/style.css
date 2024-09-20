@@ -411,6 +411,10 @@ nav li a.active,
 
 
 @media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+    }
+    
     .container {
         max-width: 757px;
     }
